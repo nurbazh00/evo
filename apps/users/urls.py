@@ -10,5 +10,5 @@ from apps.users.views import (
 urlpatterns = [
     path('auth', UserAuthView.as_view(), name='auth'),
     path('users/', UsersListCreateAPIView.as_view(), name='users'),
-    path('users/<int:pk>', UserRetrieveUpdateDestroyAPIView.as_view())
+    path('users/<int:pk>', UserRetrieveUpdateDestroyAPIView.as_view()),
 ]

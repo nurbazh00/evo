@@ -2,6 +2,7 @@ from django.contrib import admin
 
 from apps.audios.models import Category, Audio
 
+
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ['name']

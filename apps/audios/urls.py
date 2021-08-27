@@ -10,5 +10,5 @@ urlpatterns = [
     path('audios/<int:pk>', AudioDetail.as_view()),
 
     path('categories/', CategoryList.as_view(), name='categories'),
-    path('categories/<int:pk>', CategoryDetail.as_view())
+    path('categories/<int:pk>', CategoryDetail.as_view()),
 ]
