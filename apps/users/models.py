@@ -38,10 +38,6 @@ class CustomUserManager(BaseUserManager):
 
 class CustomUser(AbstractBaseUser, PermissionsMixin):
 
-    """
-      Custom user class inheriting AbstractBaseUser class
-    """
-
     Male = 'Male'
     Female = 'Female'
     GENDER_CHOICES = [

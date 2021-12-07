@@ -1,5 +1,7 @@
 import os
 from decouple import config, Csv
+
+
 config.encoding = 'cp1251'
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
